@@ -1,11 +1,12 @@
 
 import './App.css';
-import Index from './index.jsx';
+import Home from './home.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div Class="App" >
-   <Index/>
+   <Home/>
     </div>
   );
 }
