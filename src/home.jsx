@@ -90,13 +90,13 @@ function Home(){
          </Container>
          
  
-          <div className='searchbar'>
-            <h1>Enjoy Your Vacation With Us</h1>
-            <p>We offer a Variety of packages in which you can explore the World</p>
-            <input type='text' />
-            <button>Search </button>
+             <div className='searchbar'>
+               <h1>Enjoy Your Vacation With Us</h1>
+               <p>We offer a Variety of packages in which you can explore the World</p>
+               <input type='text' />
+               <button>Search </button>
+             </div>
           </div>
-        </div>
        </div>
 
                                  {/* second page starts */}
@@ -106,7 +106,7 @@ function Home(){
           <div className='about-col1-image'></div>
          </Col> 
          <Col  className='about-col2' >
-           <h5  className=''>ABOUT US </h5>
+           <h6  className=''>ABOUT US </h6>
            <h1  className=''>Welcome to Tourist</h1>
            <p  className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, corporis sint dicta eum culpa nostrum.</p>
            <p  className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium debitis cupiditate, quaerat illum, quae vel veniam numquam aspernatur
@@ -124,6 +124,24 @@ function Home(){
         </Row>
         </Container>
 
+         {/* service page ,third page starts */}
+         <Container>
+          <div className='service-container1'>
+          <h6>SERVICES</h6>
+          <h1>Our Services</h1>
+          </div>
+          <Row>
+            <Col sm={3}>hhdfcg</Col>
+            <Col sm={3}>kjcndjdjh</Col> 
+            <Col sm={3}>jnjj</Col>
+            <Col sm={3}>mnbjbhcf</Col>
+            <Col sm={3}>hhdfcg</Col>
+            <Col sm={3}>kjcndjdjh</Col> 
+            <Col sm={3}>jnjj</Col>
+            <Col sm={3}>mnbjbhcf</Col>
+          </Row>
+
+         </Container>
 
     </div>
     
