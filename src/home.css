@@ -131,9 +131,9 @@ padding-left: 7px;
 }
  
   #navbar1{
-  position:fixed;
-  top: 40px;
-  border-bottom: 1px solid  white;
+  position:sticky;
+  top: 0px;
+  border-bottom: 1px solid grey;
    
 }  
 .navbar.scrolling {
@@ -143,7 +143,7 @@ padding-left: 7px;
   top: 0 !important;
   width: 100%;
   padding-top: -100px;
-  box-shadow: 0px 0px 10px 0px black;
+  box-shadow: 0px 0px 10px 0px rgb(66, 64, 64);
   /* Add other styles for the scrolling navigation bar */
 }
 .navitems p.scrolling{
@@ -203,7 +203,7 @@ padding-left: 7px;
   width: 75%;
   height: 250px;
   margin: 0 auto;
-  margin-top:240px; 
+  margin-top:155px; 
   /* position:absolute; */
   text-align: center;
 }

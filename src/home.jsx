@@ -7,34 +7,35 @@ import Col from 'react-bootstrap/Col';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 // import { BiLogoFacebook } from 'react-icons/bs';
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
 
 function Home(){
-  const [scrolling, setScrolling] = useState(false);
+  // const [scrolling, setScrolling] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolling(true);
-      } else {
-        setScrolling(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 0) {
+  //       setScrolling(true);
+  //     } else {
+  //       setScrolling(false);
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
 
     return(
  
     <div className="Home-container" >
       <div className="Backimage">  
-       <div className={`Header${scrolling ? ' scrolling' : ''}`}>
+       {/* <div className={`Header${scrolling ? ' scrolling' : ''}`}> */}
+       <div className='Header'>
          <div className='Headerinfo'>
           <ul className='Headeraddress'>
             <li className='Headeradddress1' ><span ><i class="bi bi-geo-alt-fill"></i> </span>123 Street, Newyork, USA</li>
@@ -57,7 +58,8 @@ function Home(){
          </div>
        </div>
        <div className='content1'>  
-         <Container fluid className={`navbar${scrolling ? ' scrolling' : ''}`} id="navbar1">
+         <Container fluid className="navbar" id="navbar1">
+          {/* //{`navbar${scrolling ? ' scrolling' : ''}`} */}
            <div className='navbrand'>
             <h1> <i class="bi bi-geo-alt-fill"></i> TOURIST</h1>
             </div>
@@ -71,8 +73,8 @@ function Home(){
             <div className='navitems'>
             <p>Services</p>
             </div>  
-            <div className='navitems'>
-            <p>Packages</p>
+           <div className='navitems'>
+             <p>Packages</p>
             </div>
             <div className='navitems'>
             <p>Pages</p>
