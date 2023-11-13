@@ -1,0 +1,184 @@
+.Header{
+    /* border: solid;  
+    border-color: blue; */
+    width:100%;
+    height: 42px; 
+    background-color: black;
+  }
+  .Headerinfo{
+    /* border:dashed; */
+    border-color: aliceblue;
+    width:44%;
+    height:40px; 
+    /* margin-left: 10px; */
+    display: inline-block; 
+  }
+  .Headeradddress{
+   display: inline-block;
+  padding-left: 7px;
+  }
+  .Headeradddress1{
+    color: whitesmoke;
+   list-style-type: none;
+   font-size: 14px;
+   margin-top: 10px;
+   margin-left: 23px;
+   display: inline-block;
+  
+  }
+  .Headericons{
+     /* border-style:dashed;  */
+    /* border-color:white;  */
+    width:18%;
+    height: 40px; 
+    float:right;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .Headericons li{
+    color:white;
+    list-style-type: none;
+    display: inline;
+  
+  
+  }
+  .Headericons li:hover{
+  
+    color:black;
+  
+  }
+  
+  .Headericons1 {
+    width:14%;
+    height: 33px;
+      /* border-width: 1px; */
+    /* border-color: white; */
+    /* border-style: solid; */
+    display: inline-block;
+    box-sizing: border-box;
+  
+    border-radius: 25px;
+   justify-content: center;
+    margin-left: 8px;
+    margin-top: 0%;
+    padding-left:8px;
+    padding-top: 3px;
+  }
+  .Headericons1:hover{
+    background-color: white;
+  }
+  .content1{
+    border-style: solid; 
+  /*background-image:url(./images/back.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 610px;
+    background:rgba(32, 30, 30, 0.7);
+    position: relative;
+  
+   
+  }
+  .navbar{
+    width: 100%;
+    height: 90px;
+    border-bottom: 0.2px solid;
+    margin-top: 0px;
+    color:rgb(122, 71, 71);
+    border-color: rgb(185, 185, 180);
+    /* position: sticky; */
+  }
+  /* .Header.scrolling {
+    display: none;
+    background-image: none;
+  } */
+   
+   #navbar1{
+    /* position:fixed; */
+    border-bottom: 1px solid grey;
+  
+   }
+     
+  /* 
+  .navbar.scrolling {
+    background-color: white; 
+    color: black;/* Change background color to white on scroll 
+    position: fixed;
+    top: 0 !important;
+    width: 100%;
+    padding-top: -100px;
+
+    box-shadow: 0px 0px   10px 0px rgb(66, 64, 64);
+    /* Add other styles for the scrolling navigation bar 
+  } */
+  /* .navitems p.scrolling{
+    color:black;
+  } */
+  .navbrand{
+  
+    width: 20%;
+    height:max-content ;
+    border-style: solid;
+    border-color: rgb(13, 31, 46);
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #86B817 !important;
+  }
+  .navbrand h1{
+    font-weight:550;
+  }
+  .navcontents{
+    width: 51%;
+    height:76px;
+    /* border-style: solid;
+    border-color: aliceblue; */
+    margin-right: 20px;
+    justify-content: center;
+  }
+  .navitems{
+    width:fit-content;
+    height:75px;
+    /* border-style: solid;
+    border-color: aliceblue; */
+    display: inline-block;
+    margin-left: 25px;
+  
+  
+  }
+  .navitems p{
+    margin-top:20px ;
+    font-size: 18px;
+    font-weight:300;
+  
+  }
+  .navitems p:after{
+    content: "";
+       margin:auto;
+       display: block;
+       height: 2px;
+       width: 0%;
+       background-color: transparent;
+       transition: width 0.5s ease ;  
+  
+  }
+  .navitems p:hover{
+    color:#86B817;
+  
+  }
+  .navitems p:hover:after{
+  
+    width: 100%;
+    background-color: #86B817;
+    margin-top: 27px;
+    text-decoration: underline;
+  
+  }
+  .navbutton{
+    width: 17%;
+    height: 42px;
+    margin-left: 25px;
+    border-radius: 20px;
+    background-color: rgb(119, 196, 4);
+    border: none;
+    color: white;
+  }
