@@ -5,7 +5,7 @@ import "./css/service.css"
 function Services(){
     return(
         <div>
-            <Container>
+            <Container className='service-container'>
             <div className='service-container1'>
             <h6>
                 SERVICES</h6>

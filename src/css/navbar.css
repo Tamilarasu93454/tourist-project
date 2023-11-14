@@ -51,9 +51,9 @@
   .Headericons1 {
     width:14%;
     height: 33px;
-      /* border-width: 1px; */
-    /* border-color: white; */
-    /* border-style: solid; */
+      border-width: 1px;
+    border-color: white;
+    border-style: solid;
     display: inline-block;
     box-sizing: border-box;
   
@@ -73,9 +73,10 @@
     background-size:cover;
     background-repeat: no-repeat; */
     width: 100%;
-    height: 610px;
-    background:rgba(32, 30, 30, 0.7);
-    position: relative;
+    height: 650px;
+    background:rgba(37, 36, 36, 0.7);
+    /* background-color: #fff; */
+    /* position: relative; */
   
    
   }
@@ -84,7 +85,7 @@
     height: 90px;
     border-bottom: 0.2px solid;
     margin-top: 0px;
-    color:rgb(122, 71, 71);
+    color:white;
     border-color: rgb(185, 185, 180);
     /* position: sticky; */
   }
@@ -95,7 +96,7 @@
    
    #navbar1{
     /* position:fixed; */
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(99, 99, 99);
   
    }
      
@@ -117,15 +118,15 @@
   .navbrand{
   
     width: 20%;
-    height:max-content ;
-    border-style: solid;
-    border-color: rgb(13, 31, 46);
+    height:auto;
+    /* border-style: solid; */
+    /* border-color: rgb(13, 31, 46); */
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 9px;
     color: #86B817 !important;
   }
   .navbrand h1{
-    font-weight:550;
+    font-weight:900;
   }
   .navcontents{
     width: 51%;
@@ -169,7 +170,7 @@
   
     width: 100%;
     background-color: #86B817;
-    margin-top: 27px;
+    margin-top: 30px;
     text-decoration: underline;
   
   }

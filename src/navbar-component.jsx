@@ -31,7 +31,7 @@ function NavbarComponent(){
             </div>
            <Container fluid className="navbar" id="navbar1" >
           <div className='navbrand'>
-          <h1> <i class="bi bi-geo-alt-fill"></i> TOURIST</h1>
+          <h1> <i class="bi bi-geo-alt-fill"></i> Tourist</h1>
           </div>
           <div className='navcontents'>
           <div className='navitems'>
