@@ -6,6 +6,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Services from './services';
 import About from './about';
 import Destination from './destination';
+import BookingPage from './bookingPage';
+import StepsPage  from './stepsPage';
+
 // import { Navbar } from 'react-bootstrap';
 import NavbarComponent from "./navbar-component"
 // import Nav from 'react-bootstrap/Nav';
@@ -63,7 +66,8 @@ function Home(){
 
         {/* Destintation pages starts */}
          <Destination />
-  
+           <BookingPage />
+           <StepsPage/>
 
     </div>
   

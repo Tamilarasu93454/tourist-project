@@ -11,7 +11,7 @@ function About(){
             <Col sm={6} className='about-col1'>
             <div className='about-col1-image'></div>
             </Col> 
-            <Col  className='about-col2' >
+            <Col sm={6} className='about-col2' >
              <h6  className=''>ABOUT US </h6>
               <h1  className=''>Welcome to Tourist</h1>
                <p  className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, corporis sint dicta eum culpa nostrum.</p>

@@ -39,7 +39,7 @@ code {
 
 .searchbar{
 
-  border:2px dashed rgb(230, 20, 65);
+  /* border:2px dashed rgb(230, 20, 65); */
   width: 75%;
   height: 250px;
   margin: 0 auto;

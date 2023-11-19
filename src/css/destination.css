@@ -5,12 +5,12 @@
 .destination-container1{
     text-align: center;
 }
-.destinaton-container1 h6{
+.destination-container1 h6{
     color: #86B817 !important;
     position: relative;
     font-weight: 600;
 }
-.service-container1 h6::before{
+/* .service-container1 h6::before{
     position: absolute;
     content: "";
     width: calc(60% + 10px);
@@ -19,8 +19,8 @@
     left: -10px;
     background:#86B817 ;
     z-index: -1;
-}
-.service-container1 h6::after{
+} */
+/* .service-container1 h6::after{
 
         position: absolute;
         content: "";
@@ -31,7 +31,7 @@
         background: var(--primary);
         z-index: -1;
 
-}
+} */
 .destination-container1 h1{
     font-weight: 600;
     color: #2C3E50;
