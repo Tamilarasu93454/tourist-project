@@ -8,6 +8,7 @@ import About from './about';
 import Destination from './destination';
 import BookingPage from './bookingPage';
 import StepsPage  from './stepsPage';
+import Footer from './footer';
 
 // import { Navbar } from 'react-bootstrap';
 import NavbarComponent from "./navbar-component"
@@ -49,12 +50,93 @@ function Home(){
              { <div className='searchbar'>
                <h1>Enjoy Your Vacation With Us</h1>
                <p>We offer a Variety of packages in which you can explore the World</p>
-               <input type='text' />
+               <input type='text' className='homepage-input'  placeholder='Thailand'/>
                <button>Search </button>
              </div> }
           </div>
             
        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
    
          {/* second page starts */}
         
@@ -68,6 +150,8 @@ function Home(){
          <Destination />
            <BookingPage />
            <StepsPage/>
+           <Footer/>
+
 
     </div>
   

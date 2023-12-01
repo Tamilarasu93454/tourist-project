@@ -1,6 +1,6 @@
 .destination-container{
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 .destination-container1{
     text-align: center;
@@ -40,6 +40,7 @@
 .destination-Row1{
     /* border:#2C3E50 1px solid; */
     /* padding: 1px; */
+    
 }
 .destination-col{
     /* border:#2C3E50 1px solid; */

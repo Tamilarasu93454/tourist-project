@@ -94,15 +94,16 @@ background-color:rgb(157, 219, 95);
 .container2{
   /* border: 1px;
   border-style: solid; */
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
-/* }
-.about-col1{
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(1, 8, 6); */
-  /* height: 550px; */
+  /* margin-bottom: 50px; */
+  padding-bottom: 100px;
+ }
 
+.about-col1{
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: rgb(1, 8, 6);  */
   /* padding-top: 20px; */
   /* background-color: blue; */
 }
@@ -118,20 +119,73 @@ background-color:rgb(157, 219, 95);
   /* background-repeat: ; */
 }
 .about-col2{
-  /* width: 100%; */
-  /* height:160%; */
+
   /* border-width: 1px;
-  border-style: solid; */
-  border-color: rgb(1, 8, 6);
-  padding-top: 100px;
+  border-style: solid;
+  border-color: rgb(1, 8, 6); */
+  padding-top: 90px;
+  padding-left: 20px !important;
+  color: #2C3E50;
 
 }
 .about-col2 h6{
   color:#86B817 !important;
-  font-weight:600 ;
+  font-weight:800 ;
+  display: inline-block;
+  /* display: flex; */
+  position: relative;
+}
+.about-col2 h1{
+  font-weight: 600;
+  color: #2C3E50;
+  /* display: inline-block; */
+
+}
+
+/* .about-hr{
+  display: inline-block;
+  width:30%;
+
+  color: #9cda17;
+  
+  position: absolute;
+   left: 100px;
+   /* bottom: 2px; 
+   top: 5px;
+   position: relative;
+} */
+.about-col2 h6::before{
+  /* width: 30%;
+  margin: 0.7rem 0px;
+  margin-top: 0rem;
+  color: #9cda17; */
+  position: absolute;
+  content: "";
+  width: calc(100% + 120px);
+  height: 2px;
+  bottom: 5px;
+  left: -60px;
+  background-color: #86B817;
+  z-index: -1;
+}
+.about-col2 h6::after{
+  position: absolute;
+  content: "";
+  width: calc(100% + 120px);
+  height: 2px;
+  bottom: 5px;
+  left: -60px;
+  background-color: #86B817;
+  z-index: -1;
+/* 
+
+  width: 50%;
+  margin: 0.5rem 0px;
+  margin-bottom: 1rem; */
 }
 .about-col2 h1+p{
-  margin-top: 23px; 
+  margin-top:23px; 
+  /* color: #2C3E50; */
 }
 .about-col2 button{
   /* width: 20%; */
@@ -140,4 +194,7 @@ background-color:rgb(157, 219, 95);
   background-color: rgb(145, 214, 40);
   color: white;
   border-style: none;
+}
+.homepage-input{
+  padding-left: 24px;
 }

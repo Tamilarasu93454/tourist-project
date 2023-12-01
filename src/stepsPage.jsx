@@ -13,32 +13,46 @@ function StepsPage(){
    
 <h1>3 Easy Steps</h1>
 </div>
-                <Row  className="steps-row1"> 
-                     <Col className="steps-col">
+                <Row  className="steps-row1" > 
+                     <Col className="steps-col"  sm={4}>
                      <div className="steps-col-content">
+                        <div className="stepsIcons">
+                            <p>icons</p>
+                        </div>
                         <h5>Choose a Destination</h5>
-                        <div className="hr1">
-                        <hr></hr>
-                        <hr></hr>
+                        <div  id="hrTags">
+                        
+                     <hr className="hr1"></hr>
+                     <hr  className="hr2"></hr>
+
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit dicta corporis nesciunt, quod cupiditate?</p>
                      </div>
                      </Col>
-                     <Col className="steps-col" >
+                     <Col className="steps-col"  sm={4} >
                      <div className="steps-col-content">
+                     <div className="stepsIcons">
+                            <p>icons</p>
+                        </div>
                      <h5>Pay online</h5>
-                     <hr>
-                     </hr>
-                     <hr></hr>
+                     <div id="hrTags">
+                     <hr className="hr1"></hr>
+                     <hr  className="hr2"></hr>
+                     </div>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit dicta corporis nesciunt, quod cupiditate?</p>
                      </div>
                      </Col>
-                     <Col  className="steps-col">
+                     <Col  className="steps-col"  sm={4}
+                     >
                      <div className="steps-col-content">
+                     <div className="stepsIcons">
+                            <p>icons</p>
+                        </div>
                      <h5>Fly Today</h5>
-                     <hr>
-                     </hr>
-                     <hr></hr>
+                     <div id="hrTags">
+                     <hr className="hr1"></hr>
+                     <hr  className="hr2"></hr>
+                     </div>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit dicta corporis nesciunt, quod cupiditate?</p>
                      </div>
                      </Col>
